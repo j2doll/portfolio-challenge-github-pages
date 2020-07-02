@@ -10,10 +10,11 @@
 2. 생성된 저장소에서 Settings로 이동하고 아래 이미지처럼 설정합니다.
 ![이미지1](https://raw.githubusercontent.com/windbella/portfolio-challenge-github-pages/master/image1.PNG)
 3. source는 구조상 master branch /docs folder로 선택해야하고, custom domain 옵션을 이용해서 주소를 변경할 수 있습니다.  
-하지만 무난하게 따라오기 위해서는 이미지와 같은 설정을 추천합니다.
+하지만 무난하게 따라오기 위해서는 이미지와 같은 설정을 추천합니다.  
+(설정이 바로 적용되지 않을 수 있습니다. 대기시간이 조금 필요합니다.)
 ## 서비스하기
 1. 해당 저장소를 그대로 fork 했다면 docs 파일에 리소스가 있기 때문에 자신의 주소로 이동하면 바로 페이지를 볼 수 있습니다.
-2. 소스를 수정하여 반영하고 싶다면 client 디렉터리로 이동하여 npm run build (혹은 yarn build)를 이용해서 docs 폴더를 업데이트하고 github에 다시 push 하면 됩니다.
+2. 소스를 수정하여 반영하고 싶다면 client 디렉터리로 이동하여 npm run build (혹은 yarn build)를 이용해서 docs 폴더를 업데이트하고 github에 다시 push 하면 됩니다.  
 3. 소스만 참조하여 새롭게 구성했다면 아래 주요 내용 보기에서 적절하게 코드를 수정하셔야 합니다.
 ## 주요 내용 보기
 - https://github.com/windbella/portfolio-challenge-github-pages/blob/master/client/vue.config.js  
